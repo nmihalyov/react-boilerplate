@@ -8,7 +8,7 @@ import App from './components/App/App.jsx';
 
 ReactDOM.render(
 	<App></App>,
-	document.querySelector('.root')
+	document.querySelector('.page-wrapper')
 );
 
 // If you want your app to work offline and load faster, you can change
