@@ -5,10 +5,7 @@ class App extends React.Component {
 	render() {
 		return (
 			<>
-				<main className="content">
-					{this.props.children}
-				</main>
-				<div></div>
+				<main className="content"></main>
 			</>
 		);
 	}
