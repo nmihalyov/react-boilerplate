@@ -4,7 +4,9 @@ import * as serviceWorker from './serviceWorker';
 
 import './index.sass';
 
-import App from './components/App/App.jsx';
+import App from './components/App';
+
+import store from './store';
 
 ReactDOM.render(<App/>,	document.querySelector('.page-wrapper'));
 
