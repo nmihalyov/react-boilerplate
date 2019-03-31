@@ -6,8 +6,6 @@ import './index.sass';
 
 import App from './components/App';
 
-import store from './store';
-
 ReactDOM.render(<App/>,	document.querySelector('.page-wrapper'));
 
 // If you want your app to work offline and load faster, you can change
