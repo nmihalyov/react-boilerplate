@@ -10,7 +10,7 @@ class App extends React.PureComponent {
 			<AppShell>
 				<Router>
 					{routes.map(route => (
-						<Route key={route.path} path={route.path} component={route.component}/>
+						<Route key={route.path} path={route.path} component={route.page}/>
 					))}
 				</Router>
 			</AppShell>

@@ -1,14 +1,14 @@
 // Config for React Router routes
 import React from 'react';
 
-import Component from './components/Component';
+import MainPage from './pages/main.jsx';
 
 const routes = [
 	{
 		path: '/',
-		component() {
+		page() {
 			return (
-				<Component/>
+				<MainPage/>
 			);
 		}
 	}
