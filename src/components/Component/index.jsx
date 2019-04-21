@@ -1,9 +1,9 @@
 import React from 'react';
 
-import './style.sass';
+import styles from './component.module.sass';
 
 let Component = () => {
-	return <div></div>;
+	return <div className={styles.component}></div>;
 };
 
 export default Component;

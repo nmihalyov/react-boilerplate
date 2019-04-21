@@ -14,7 +14,7 @@ ReactDOM.render(
 	<Provider store={store}>
 		<App/>
 	</Provider>,
-	document.querySelector('.page-wrapper')
+	document.querySelector('.root')
 );
 
 // If you want your app to work offline and load faster, you can change

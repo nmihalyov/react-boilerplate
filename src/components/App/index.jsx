@@ -1,5 +1,4 @@
 import React from 'react';
-import './style.sass';
 import {BrowserRouter as Router, Route} from 'react-router-dom';
 
 import AppShell from '../AppShell'

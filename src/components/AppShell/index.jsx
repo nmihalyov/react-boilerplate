@@ -1,5 +1,6 @@
 import React from 'react';
-import './style.sass';
+
+import styles from './content.module.sass';
 
 import Header from '../Header';
 import Footer from '../Footer';
@@ -9,7 +10,7 @@ class AppShell extends React.Component {
 		return (
 			<div className="page-wrapper">
 				<Header/>
-				<main className="content">
+				<main className={styles.content}>
 					{this.props.children}
 				</main>
 				<Footer/>

@@ -1,4 +1,4 @@
-// It's a config for React Router routes
+// Config for React Router routes
 import React from 'react';
 
 import Component from './components/Component';

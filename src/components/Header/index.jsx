@@ -1,10 +1,10 @@
 import React from 'react';
 
-import './style.sass'
+import styles from './header.module.sass'
 
 let Header = () => {
 	return (
-		<header></header>
+		<header className={styles.header}></header>
 	);
 };
 
