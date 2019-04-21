@@ -1,10 +1,20 @@
 import React from 'react';
 import './style.sass';
+import {BrowserRouter as Router, Route} from 'react-router-dom';
 
-class App extends React.Component {
+import AppShell from '../AppShell'
+import routes from '../../routes.js';
+
+class App extends React.PureComponent {
 	render() {
 		return (
-			<main className="content"></main>
+			<AppShell>
+				<Router>
+					{routes.map(route => (
+						<Route key={route.path} path={route.path} component={route.component}/>
+					))}
+				</Router>
+			</AppShell>
 		);
 	}
 }
