@@ -7,13 +7,13 @@ import routes from '../../routes.js';
 class App extends React.PureComponent {
 	render() {
 		return (
-			<AppShell>
-				<Router>
+			<Router>
+				<AppShell>
 					{routes.map(route => (
 						<Route key={route.path} path={route.path} component={route.page}/>
 					))}
-				</Router>
-			</AppShell>
+				</AppShell>
+			</Router>
 		);
 	}
 }
