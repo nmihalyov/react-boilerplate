@@ -6,6 +6,7 @@ import MainPage from './pages/main.jsx';
 const routes = [
 	{
 		path: '/',
+		exact: true,
 		page() {
 			return (
 				<MainPage/>

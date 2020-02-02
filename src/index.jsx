@@ -1,7 +1,7 @@
 // Renders whole application
 import React from 'react';
 import ReactDOM from 'react-dom';
-import {Provider} from 'react-redux';
+import { Provider } from 'react-redux';
 import * as serviceWorker from './serviceWorker';
 
 import './index.sass';
